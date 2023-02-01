@@ -1,0 +1,19 @@
+{
+  "name": "chatGpt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx ./src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5"
+  }
+}
